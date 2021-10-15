@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <script src="https://kit.fontawesome.com/2f380dff25.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://bootswatch.com/5/journal/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="display-4 text-center">
+            <i class="fas fa-cash-register text-primary"></i>My<span class="text-primary">Cash</span>Register
+        </h1>
+        <form id="register-form">
+            <div class="form-group">
+                <label for="Amount due">Amount due</label>
+                <input type="text" id="due" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="Amount recieved">Amount recieved</label>
+                <input type="text" id="recieved" class="form-control">
+            </div>
+
+            <div class="d-grid gap-2 mt-4">
+                <input type="submit" value="Change due" class="btn btn-primary">
+            </div>
+        </form>
+        <table class="table table-hover mt-5">
+            <thead>
+              <tr>
+                <th scope="col">Change due</th>
+                <th scope="col">2000</th>
+                <th scope="col">500</th>
+                <th scope="col">200</th>
+                <th scope="col">100</th>
+                <th scope="col">50</th>
+                <th scope="col">20</th>
+                <th scope="col">10</th>
+                <th scope="col">5</th>
+                <th scope="col">2</th>
+                <th scope="col">1</th>
+              </tr>
+            </thead>
+            <tbody id="change"></tbody>
+        </table>
+
+    </div>
+    
+    <script src="JS/app.js"></script>
+</body>
+</html>
