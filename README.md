@@ -31,8 +31,8 @@ Problem Statement
 
 ### Links
 
-- Solution URL: [https://github.com/NandodkarAmogh/Library-App](https://github.com/NandodkarAmogh/Library-App)
-- Live Site URL: [https://vanillajslibrary.netlify.app](https://vanillajslibrary.netlify.app)
+- Solution URL: [https://github.com/NandodkarAmogh/Cash-register-app](https://github.com/NandodkarAmogh/Cash-register-app)
+- Live Site URL: [https://jscash-register.netlify.app/](https://jscash-register.netlify.app/)
 
 ## My process
 
